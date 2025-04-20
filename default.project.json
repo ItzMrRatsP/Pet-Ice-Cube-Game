@@ -1,0 +1,47 @@
+{
+    "name": "RSCHunt",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "Packages": {
+                "$path": "Packages"
+            },
+
+            "Vendors": {
+                "$path": "Vendors"
+            },
+
+            "Assets": {
+                "$className": "Folder",
+                "$ignoreUnknownInstances": true
+            },
+
+            "Shared": {
+                "$path": "src/shared"
+            },
+
+            "$ignoreUnknownInstances": true
+        },
+
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "Client": {
+                    "$path": "src/client"
+                }
+            }
+        },
+
+        "ServerStorage": {
+            "ServerPackages": {
+                "$path": "ServerPackages"
+            }
+        },
+
+        "ServerScriptService": {
+            "Server": {
+                "$path": "src/server"
+            }
+        }
+    }
+}
